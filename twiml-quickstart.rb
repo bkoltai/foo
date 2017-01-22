@@ -1,7 +1,3 @@
-require 'rubygems'
-require 'sinatra'
-require 'twilio-ruby'
-
 get '/hello-monkey' do
   people = {
     '+14158675309' => 'Curious George',
